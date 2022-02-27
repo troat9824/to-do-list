@@ -201,6 +201,8 @@ var taskStatusChangeHandler = function(event) {
     saveTasks();
 };
 
+
+
 var saveTasks = function() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
 };
